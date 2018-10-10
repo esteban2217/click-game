@@ -1,5 +1,5 @@
 {
-  "name": "clicky-game",
+  "name": "click-game",
   "version": "1.0.0",
   "private": true,
   "description": "This is a memory game with React.",
@@ -16,10 +16,8 @@
   
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NydiaGuo/Clicky-Game/issues"
-  },
-  "homepage": "https://NydiaGuo.github.io/Clicky-Game",
+  
+  "homepage": "https://esteban2217.github.io/click-game/",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
