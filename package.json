@@ -1,0 +1,30 @@
+{
+  "name": "clicky-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is a memory game with React.",
+
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NydiaGuo/Clicky-Game/issues"
+  },
+  "homepage": "https://NydiaGuo.github.io/Clicky-Game",
+  "dependencies": {
+    "gh-pages": "^1.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1"
+  }
+}
